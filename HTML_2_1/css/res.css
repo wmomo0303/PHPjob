@@ -1,0 +1,60 @@
+
+
+@media screen and (max-width: 479px) {
+
+
+    .nofloat {
+        float: none;
+    
+        }
+
+
+    .w_max {
+        width: 200px;
+        max-width: 200px;
+    }
+
+    .h_max {
+        max-height: 200px;
+        height: 200px;
+    }
+
+    .h_max2 {
+        max-height: 100px;
+        height: 100px;
+    }
+
+
+    .m_maz{
+
+       margin-top: -10px;
+    }
+
+    .h_maz {
+        margin-top: 50px;
+    }
+
+    .mr_box {
+
+        position: relative;
+        top: 15px;
+        left: 15px;
+        margin: 10px;
+
+
+    }
+
+    .h_box {
+
+        position: relative;
+        top: 10px;
+        left: 70px;
+    }
+
+
+    .wrap {
+        display: flex;
+        flex-flow: column;
+    }
+
+}
