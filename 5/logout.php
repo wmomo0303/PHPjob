@@ -18,4 +18,3 @@ session_destroy();
     <a href="login.php">ログイン画面に戻る</a>
     </body>
 </html>
-
