@@ -60,6 +60,3 @@ function find_post_by_id($id) {
     }
 }
 
-
-
-
