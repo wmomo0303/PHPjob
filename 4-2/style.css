@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.float {
+    float: left;
+    gap: 6px 4px;
+}
+
+
+.center_box {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.left_box {
+    text-align: left;
+}
+
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+
+.logowaku {
+    width: 200px;
+    height: 120px;
+    background-color: #add8e6;
+    float: left;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+}
+
+
+.header1 {
+    width: 800px;
+    height: 60px;
+    background-color: #87ceeb;
+    float: left;
+}
+
+.header2 {
+    width: 800px;
+    height: 60px;
+    background-color: #00FFFF;
+    float: left;
+
+}
+
+.kizi_tate {
+    display: flex;
+    flex-direction :column;
+}
+
+.id {
+    display: flex;
+    width: 55px;
+    height: 200px;
+    flex-direction :column;
+    position: relative;
+    top: -158px;
+    left: 113px;
+    margin-right: 2px;
+}
+
+
+.title {
+    width: 193px;
+    height: 198px;
+    flex-direction :column;
+    position: relative;
+    top: -158px;
+    left: 113px;
+    margin-right: 2px;
+
+}
+
+
+.kategori {
+    width: 65px;
+    height: 198px;
+    flex-direction :column;
+    position: relative;
+    top: -158px;
+    left: 113px;
+    margin-right: 2px;
+}
+
+
+.honbun {
+    width: 272px;
+    height: 198px;
+    flex-direction :column;
+    position: relative;
+    top: -158px;
+    left: 113px;
+    margin-right: 2px;
+}
+
+
+
+.toukoubi {
+    width: 175px;
+    height: 198px;
+    flex-direction :column;
+    position: relative;
+    top: -158px;
+    left: 113px;
+    margin-right: 2px;
+}
+
+
+
+.kizi_naka {
+    width: 800px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 115px;
+    overflow: hidden;
+
+}
+
+
+.kizi_id {
+    background-color: #87ceeb;
+    width: 53px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+
+.kizi_id2 {
+    background-color: #e0ffff;
+    height: 20px;
+    margin-bottom: 2px;
+}
+
+
+.kizi_title {
+
+    width: 193px;
+    background-color: #87ceeb;
+    height: 20px;
+    margin-right: 2px;
+
+}
+
+
+.kizi_title2 {
+    background-color: #e0ffff;
+    height: 20px;
+    margin-bottom: 2px;
+}
+
+.kizi_kategori {
+
+    background-color: #87ceeb;
+    width: 65px;
+    height: 20px;
+    margin-right: 2px;
+
+}
+
+
+.kizi_kategori2 {
+    background-color: #e0ffff;
+    height: 20px;
+    margin-bottom: 2px;
+
+}
+
+
+.kizi_honbun {
+    background-color: #87ceeb;
+    width: 272px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+
+.kizi_honbun2 {
+    background-color: #e0ffff;
+    height: 20px;
+    margin-bottom: 2px;
+
+}
+
+.kizi_toukoubi {
+    width: 175px;
+    background-color: #87ceeb;
+    margin-right: 2px;
+    height: 20px;
+}
+
+
+.kizi_toukoubi2 {
+    background-color: #e0ffff;
+    height: 20px;
+    margin-bottom: 2px;
+
+}
+
+
+.footer {
+    width: 1000px;
+    height: 50px;
+    background-color: #00ced1;
+    float: left;
+    position: relative;
+    top: -230px;
+    left: -57px;
+}

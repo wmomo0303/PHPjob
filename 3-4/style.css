@@ -1,0 +1,12 @@
+body {
+    background-color: gray;
+    color: #FFFFFF;
+    margin: 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ライン */
+h1 {
+    border-bottom : solid 5px;
+}
