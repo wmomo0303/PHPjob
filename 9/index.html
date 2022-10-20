@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- jQueryを動かすために必要な物がここに必要 -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="box">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+    <button class="click">クリック</button>
+    <script>
+    //  ここにjQueryを記入
+    $('button').click (function() {
+
+        $(this).toggleClass('active');
+        let flg = $(this).hasClass('active');
+        console.log(flg);
+
+        if(flg == true) {
+            katen_on();
+
+        } else {
+            katen_off();
+
+        }
+
+        function katen_on(){
+
+            $(".left").animate({width:'0%', opacity: 0}, 500 );
+            $(".right").animate({width:'0%', opacity: 0}, 500 );
+            }
+
+        function katen_off(){
+
+            $(".left").animate({width:'50%', opacity: 1}, 500 );
+            $(".right").animate({width:'50%', opacity: 1}, 500 );	
+          }
+        })
+    </script>
+  </body>
+</html>
