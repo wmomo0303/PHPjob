@@ -1,0 +1,86 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFF;
+    color: slategrey;
+  }
+  
+
+  .kakumaru {
+    background-color: rgb(172, 222, 240);
+    border-radius: 10px;
+  }
+
+  .name_waku {
+    padding-right: 5px;
+    width: 150px;
+  }
+
+  .delete_waku {
+    padding-right: 5px;
+    width: 70px;
+  }
+
+
+  .button {
+    display       : inline-block;
+    border-radius : 5%;
+    font-size     : 12pt;
+    text-align    : center;
+    cursor        : pointer;
+    padding       : 12px 12px;
+    background    : #7eccff;
+    color         : #ffffff;
+    line-height   : 1em;
+    transition    : .3s;
+    border        : 2px solid #7eccff;
+  }
+  .button:hover {
+    color         : #7eccff;
+    background    : #ffffff;
+  }
+
+
+  .tbl_yoko{
+    border-spacing: 0;
+}
+
+.tbl_yoko th,.tbl_yoko td{
+    border-bottom: 2px solid #FFF;
+    padding: 10px;
+}
+
+
+  .navbar-laravel {
+    background-color: rgb(96, 96, 96);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  }
+  
+  .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .table-dark {
+    color: #fff;
+  }
+  
+  .list-group-item {
+    border-color: #fff;
+    background-color: #000;
+  }
+  
+  .login-box {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .login-header {
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+  
+  .login-body {
+    background-color: rgba(0, 0, 0, 0.25);
+  }
